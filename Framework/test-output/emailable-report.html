@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">1</td><td class="num">49,651</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cl.testcases.SP_TC_01</td><td><a href="#m0">clickOnSignInCTA</a></td><td rowspan="1">1658127934475</td><td rowspan="1">30079</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.cl.testcases.SP_TC_01</td><td><a href="#m1">clickOnContinueCTA</a></td><td rowspan="1">1658127965166</td><td rowspan="1">1911</td></tr><tr class="passedeven"><td><a href="#m2">clickOnEmailIdTextField</a></td><td rowspan="1">1658127964800</td><td rowspan="1">70</td></tr><tr class="passedeven"><td><a href="#m3">clickOnPasswordTextField</a></td><td rowspan="1">1658127967079</td><td rowspan="1">4095</td></tr><tr class="passedeven"><td><a href="#m4">clickOnTheSignInCTA</a></td><td rowspan="1">1658127971330</td><td rowspan="1">134</td></tr><tr class="passedeven"><td><a href="#m5">deleteAllCoockies</a></td><td rowspan="1">1658127932427</td><td rowspan="1">347</td></tr><tr class="passedeven"><td><a href="#m6">enterEmailIdOnTextField</a></td><td rowspan="1">1658127964874</td><td rowspan="1">290</td></tr><tr class="passedeven"><td><a href="#m7">enterpasswordOnTextField</a></td><td rowspan="1">1658127971176</td><td rowspan="1">151</td></tr><tr class="passedeven"><td><a href="#m8">mouseHover</a></td><td rowspan="1">1658127932781</td><td rowspan="1">1690</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">com.cl.testcases.SP_TC_01#clickOnSignInCTA</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[@class=&apos;nav-action-inner&apos;])[2]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;VDC01DLAP0359&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e98b9efd7f031a0586a06b66dc04fb5, findElement {using=xpath, value=(//span[@class=&apos;nav-action-inner&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e98b9efd7f031a0586a06b66dc04fb5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at com.cl.GUIFunctions.GUIFunctions.clickButton(GUIFunctions.java:60)
+	at com.cl.pages.SignInPage.clickonSignInCTA(SignInPage.java:77)
+	at com.cl.testcases.SP_TC_01.clickOnSignInCTA(SP_TC_01.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.cl.testcases.SP_TC_01#clickOnContinueCTA</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.cl.testcases.SP_TC_01#clickOnEmailIdTextField</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.cl.testcases.SP_TC_01#clickOnPasswordTextField</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.cl.testcases.SP_TC_01#clickOnTheSignInCTA</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.cl.testcases.SP_TC_01#deleteAllCoockies</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.cl.testcases.SP_TC_01#enterEmailIdOnTextField</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.cl.testcases.SP_TC_01#enterpasswordOnTextField</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.cl.testcases.SP_TC_01#mouseHover</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

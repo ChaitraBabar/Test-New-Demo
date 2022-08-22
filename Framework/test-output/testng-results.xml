@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49651" started-at="2022-07-18T07:05:21Z" finished-at="2022-07-18T07:06:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49651" started-at="2022-07-18T07:05:21Z" finished-at="2022-07-18T07:06:11Z">
+      <class name="com.cl.testcases.SP_TC_01">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="setUpSuite" is-config="true" duration-ms="1045" started-at="2022-07-18T12:35:20Z" finished-at="2022-07-18T12:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="setup" is-config="true" duration-ms="10573" started-at="2022-07-18T12:35:21Z" finished-at="2022-07-18T12:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteAllCoockies()[pri:1, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="deleteAllCoockies" duration-ms="347" started-at="2022-07-18T12:35:32Z" description="Step 1: Delete All Coockies" finished-at="2022-07-18T12:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCoockies -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="2" started-at="2022-07-18T12:35:32Z" finished-at="2022-07-18T12:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAllCoockies status=SUCCESS method=SP_TC_01.deleteAllCoockies()[pri:1, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="mouseHover()[pri:2, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="mouseHover" duration-ms="1690" started-at="2022-07-18T12:35:32Z" description="Step 2: Mouse Hover On the Hello, Sign In" finished-at="2022-07-18T12:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHover -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="1" started-at="2022-07-18T12:35:34Z" finished-at="2022-07-18T12:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHover status=SUCCESS method=SP_TC_01.mouseHover()[pri:2, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="FAIL" signature="clickOnSignInCTA()[pri:3, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="clickOnSignInCTA" duration-ms="30079" started-at="2022-07-18T12:35:34Z" description="Step 3: Click on Sign In CTA" finished-at="2022-07-18T12:36:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='nav-action-inner'])[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VDC01DLAP0359', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e98b9efd7f031a0586a06b66dc04fb5, findElement {using=xpath, value=(//span[@class='nav-action-inner'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e98b9efd7f031a0586a06b66dc04fb5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='nav-action-inner'])[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VDC01DLAP0359', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e98b9efd7f031a0586a06b66dc04fb5, findElement {using=xpath, value=(//span[@class='nav-action-inner'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65291/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e98b9efd7f031a0586a06b66dc04fb5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at com.cl.GUIFunctions.GUIFunctions.clickButton(GUIFunctions.java:60)
+	at com.cl.pages.SignInPage.clickonSignInCTA(SignInPage.java:77)
+	at com.cl.testcases.SP_TC_01.clickOnSignInCTA(SP_TC_01.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInCTA -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="229" started-at="2022-07-18T12:36:04Z" finished-at="2022-07-18T12:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnSignInCTA status=FAILURE method=SP_TC_01.clickOnSignInCTA()[pri:3, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="clickOnEmailIdTextField()[pri:4, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="clickOnEmailIdTextField" duration-ms="70" started-at="2022-07-18T12:36:04Z" description="Step 4: Click on Email ID Text Field" finished-at="2022-07-18T12:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmailIdTextField -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="1" started-at="2022-07-18T12:36:04Z" finished-at="2022-07-18T12:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnEmailIdTextField status=SUCCESS method=SP_TC_01.clickOnEmailIdTextField()[pri:4, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="enterEmailIdOnTextField()[pri:5, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="enterEmailIdOnTextField" duration-ms="290" started-at="2022-07-18T12:36:04Z" description="Step 5: Enter Email Id" finished-at="2022-07-18T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailIdOnTextField -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="0" started-at="2022-07-18T12:36:05Z" finished-at="2022-07-18T12:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterEmailIdOnTextField status=SUCCESS method=SP_TC_01.enterEmailIdOnTextField()[pri:5, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="clickOnContinueCTA()[pri:6, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="clickOnContinueCTA" duration-ms="1911" started-at="2022-07-18T12:36:05Z" description="Step 6: Click On Continue CTA" finished-at="2022-07-18T12:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContinueCTA -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="1" started-at="2022-07-18T12:36:07Z" finished-at="2022-07-18T12:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnContinueCTA status=SUCCESS method=SP_TC_01.clickOnContinueCTA()[pri:6, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="clickOnPasswordTextField()[pri:7, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="clickOnPasswordTextField" duration-ms="4095" started-at="2022-07-18T12:36:07Z" description="Step 7: Click on Password Text Field" finished-at="2022-07-18T12:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPasswordTextField -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="0" started-at="2022-07-18T12:36:11Z" finished-at="2022-07-18T12:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnPasswordTextField status=SUCCESS method=SP_TC_01.clickOnPasswordTextField()[pri:7, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="enterpasswordOnTextField()[pri:8, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="enterpasswordOnTextField" duration-ms="151" started-at="2022-07-18T12:36:11Z" description="Step 8: Enter Password" finished-at="2022-07-18T12:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpasswordOnTextField -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="0" started-at="2022-07-18T12:36:11Z" finished-at="2022-07-18T12:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterpasswordOnTextField status=SUCCESS method=SP_TC_01.enterpasswordOnTextField()[pri:8, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="clickOnTheSignInCTA()[pri:9, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="clickOnTheSignInCTA" duration-ms="134" started-at="2022-07-18T12:36:11Z" description="Step 9: Enter Password" finished-at="2022-07-18T12:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheSignInCTA -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:com.cl.testcases.SP_TC_01@5a8806ef]" name="takescreenshot" is-config="true" duration-ms="0" started-at="2022-07-18T12:36:11Z" finished-at="2022-07-18T12:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnTheSignInCTA status=SUCCESS method=SP_TC_01.clickOnTheSignInCTA()[pri:9, instance:com.cl.testcases.SP_TC_01@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+      </class> <!-- com.cl.testcases.SP_TC_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
